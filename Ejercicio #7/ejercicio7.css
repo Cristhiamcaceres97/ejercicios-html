@@ -1,0 +1,13 @@
+/*un botón, con color de fondo rojo, el tipo de letra helvética, 
+y pura mayúscula, y cuando el ratón pase por encima de ella, 
+esta debe volverse color verde. */
+
+.boton {
+    background-color: red;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    }
+    
+    .boton:hover {
+    background-color: green;
+    }

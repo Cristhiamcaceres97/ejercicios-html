@@ -1,0 +1,39 @@
+
+
+html {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.carta {
+    width: 250px;
+    border: 1px solid black;
+    box-shadow: 0 0 4px 4px lightgray;
+    text-align: center;
+}
+
+.titulo {
+    color: white;
+    background-color: gray;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.5 rem;
+}
+
+.body {
+    font-style: italic;
+    text-align: justify;
+    padding: 8px;
+}
+
+.foot {
+    color: white;
+    background-color: rgb(197, 193, 193);
+    text-align: center;
+    padding: 8px;
+   
+}
+
+
+
+

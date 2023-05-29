@@ -1,0 +1,17 @@
+
+
+
+.bloque {
+
+    width: 400px;
+    height: 150px;
+    background-color: aquamarine;
+    border: 4px dotted gray;
+    margin: 50px;
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    
+    }

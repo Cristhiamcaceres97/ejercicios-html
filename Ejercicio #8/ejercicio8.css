@@ -1,0 +1,13 @@
+/* Realizar un color de fondo degradado para un párrafo, 
+además agregarle un margen de 20 píxeles, un relleno de 
+14px, un borde de radio 20px. */
+
+
+.degradado { 
+    margin: 20px;
+    border-radius: 20px;
+    padding: 14px;
+    background: linear-gradient(to right, rgb(165, 97, 165), rgb(86, 86, 206), rgb(214, 173, 180), rgb(131, 129, 129), white);
+    text-align: center;
+    
+}

@@ -1,0 +1,8 @@
+
+.circulo {
+    width: 500px;
+    height: 500px; 
+    background-color: blue;
+    border: 10px double orange;
+    border-radius: 50%; 
+    }

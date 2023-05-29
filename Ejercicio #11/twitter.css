@@ -1,0 +1,434 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica;
+  height: 100%;
+  margin: 0;
+}
+
+.todo {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  min-height: calc(100%-12%);
+}
+
+.todoizquierda {
+  width: 23%;
+}
+
+.centro {
+  width: 44%;
+  height: 80%;
+  border-left: 1px gray solid;
+  border-right: 1px gray solid;
+}
+
+.ladoderecho {
+  width: 33%;
+}
+
+.twitter {
+  padding-left: 22%;
+}
+
+.signoexplorar {
+  padding-left: 25%;
+  padding-top: 30px;
+  font-size: 25px;
+  color: white;
+}
+
+.logotuerca {
+  padding-left: 24%;
+  font-size: 25px;
+  padding-top: 7%;
+  color: rgb(201, 198, 198);
+}
+
+.buscador {
+  width: 82%;
+  height: 47px;
+  border-radius: 20px;
+  background-color: #525151;
+  position: relative;
+  border-bottom: none;
+  margin-top: 3px;
+  margin-left: 20px;
+  outline: none;
+}
+
+.input {
+  border: 0;
+  background-color: gray;
+  outline: none;
+}
+
+
+.buscador input[type="text"] {
+  height: 30px;
+  border: transparent;
+  font-size: 16px;
+  background-color: #525151;
+  padding: 1px;
+  padding-left: 75px;
+  padding-top: 4px;
+  margin-left: 15px;
+  margin-top: 5px;
+  border-radius: none;
+  border-style: none;
+  outline: none;
+}
+
+
+.lupa {
+  position: absolute;
+  padding-top: 12px;
+  padding-left: 30px;
+  color: gray;
+}
+
+.settings {
+  position: absolute;
+  padding-left: 240px;
+  padding-top: 12px;
+}
+
+.menu {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  float: left;
+  text-decoration: none;
+  text-transform: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  position: relative;
+  font-weight: bold;
+  color: rgb(116, 114, 114);
+  margin: 0px 11px;
+  padding: 0;
+}
+
+.parati  {
+  color: rgb(255, 255, 255);
+  border-bottom: 5px blue solid;
+  margin: 0px 0px;
+}
+
+.parati p{
+  color: white;
+  margin: 0px 0px 10px 0px;
+}
+
+.menu {
+  border-bottom: 1px gray solid;
+  height: 100%;
+  margin-top: 50px;
+  padding: 0px 0px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding-left: 4px;
+  margin: 0px 0px 0px 10px;
+}
+
+li {
+  margin-bottom: 30px;
+  margin-left: 25px;
+}
+
+.menu .nav {
+  font-size: 18px;
+  text-transform: none;
+  padding: 0;
+  display: block;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+}
+
+.menu {
+  padding-top: 0px 0px 0px 0px;
+  font-size: 15px;
+  color: rgb(198, 199, 200);
+}
+
+.titulocentro {
+  position: relative;
+  padding-top: 30px;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.titulocentro h3 {
+  font-size: 13px;
+  padding-left: 15px;
+  margin: 0;
+}
+
+.titulocentro i {
+  color: rgb(211, 33, 77);
+  padding-left: 65%;
+  font-size: 13px;
+}
+
+.banderas {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  padding-left: 13px;
+  padding-top: 15;
+  padding-right: 15px;
+}
+
+.japon {
+  background-color: rgb(0, 5, 85);
+  font-size: 12px;
+  font-family: Arial;
+  height: 55px;
+}
+
+.japon img {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.japon i {
+  position: relative;
+  font-size: 15px;
+  left: 80px;
+  bottom: 38px;
+}
+
+.japon b {
+  position: relative;
+  right: 10px;
+  bottom: 28px;
+}
+
+.croacia {
+  background-color: rgb(21, 21, 175);
+  font-size: 30px;
+  font-family: Helvetica;
+  display: flex;
+  align-items: center;
+  height: 55px;
+}
+
+.croacia img {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.croacia i {
+  position: relative;
+  font-size: 15px;
+  left: 15px;
+  bottom: 1px;
+  top: 6px;
+}
+
+.croacia b {
+  position: relative;
+  right: 85px;
+  top: 1px;
+}
+
+.banderas b {
+  font-size: 30px;
+  padding-left: 83%;
+  text-transform: none;
+}
+
+.publicaciones {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding-bottom: 0px;
+  margin-bottom: 0%;
+  padding-left: 15px;
+  margin-top: 38px;
+}
+
+.publicaciones i {
+  padding-left: 70%;
+  padding-right: 15px;
+}
+
+.publicaciones a {
+  text-decoration: none;
+  color: rgb(29, 155, 240);
+}
+
+.publicaciones p {
+  color: rgb(175, 176, 177);
+  margin-bottom: 25px;
+}
+
+.publicaciones b {
+  color: rgb(246, 246, 246);
+}
+
+.ladoderecho {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.container-redes {
+  width: 360px;
+  height: 360px;
+  border: 1px rgb(153, 153, 153) solid;
+  align-items: center;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.container-redes h2 {
+  color: white;
+  font-size: 21px;
+  padding-left: 27px;
+}
+
+.container-redes p {
+  color: rgb(175, 176, 177);
+  font-size: 12px;
+  padding-left: 40px;
+}
+
+.container-redes b {
+  color: rgb(29, 155, 240);
+  text-decoration: none;
+}
+
+.google {
+  width: 270px;
+  height: 30px;
+  margin: 15px;
+  border: 1px gray solid;
+  padding: 10px;
+  align-items: center;
+  padding-left: 45px;
+  border-radius: 25px;
+  color: rgb(56, 55, 55);
+  background-color: white;
+}
+
+.apple {
+  width: 268px;
+  height: 30px;
+  margin: 15px;
+  border: 1px gray solid;
+  padding: 10px;
+  align-items: center;
+  padding-left: 50px;
+  border-radius: 25px;
+  color: black;
+  background-color: white;
+}
+
+.telefono {
+  width: 285px;
+  height: 30px;
+  margin: 15px;
+  border: 1px gray solid;
+  padding: 10px;
+  padding-left: 30px;
+  border-radius: 25px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  text-align: center;
+}
+
+.container-redes img {
+  padding-top: 5px;
+}
+
+.container-redes i {
+  padding-left: 22px;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+
+.telefono i {
+  padding-left: 1px;
+  padding-top: 5%;
+}
+
+.final {
+  font-size: 13px;
+  color: rgb(153, 151, 151);
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.final i {
+  padding-top: 5px;
+}
+
+.footer {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 12%;
+  font-family: inherit;
+}
+
+.footer i {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+
+.footer p {
+  padding-left: 24%;
+  font-family: inherit;
+  font-size: 15px;
+  padding-top: 3px;
+  padding-bottom: 1px;
+  color: rgb(226, 222, 222);
+}
+
+.footer b {
+  font-size: 22px;
+  color: white;
+}
+
+.footer i {
+  width: 45%;
+  border: 1px rgb(255, 255, 255) solid;
+  text-align: right;
+  margin-left: 340px;
+  font-size: 17px;
+  font-family: arial;
+  border-radius: 20px;
+   padding: 10px;
+  background-color: rgb(29, 155, 240);
+}
+
+.footer a {
+  width: 70%;
+  font-size: 17px;
+  text-decoration: none;
+  border-radius: 2px transparent solid;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+}

@@ -1,0 +1,8 @@
+/*Crea una página web donde aparezca un titular o encabezado 
+de nivel 1 dentro de un bloque tipo header. El titular deberá 
+verse en color rojo y centrado.*/
+
+.titular {
+    color: red;
+    text-align: center;
+}
